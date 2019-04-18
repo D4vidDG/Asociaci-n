@@ -10,14 +10,14 @@ package asociación;
  * @author Estudiante
  */
 public class Punto {
-    private int x;
-    private int y;
+    private double x;
+    private double y;
 
-    public int getX() {
+    public double getX() {
         return x;
     }
 
-    public int getY() {
+    public double getY() {
         return y;
     }
 
@@ -26,6 +26,11 @@ public class Punto {
     }
 
     public void setY(int y) {
+        this.y = y;
+    }
+
+    public Punto(double x, double y) {
+        this.x = x;
         this.y = y;
     }
     
